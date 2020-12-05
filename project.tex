@@ -1,0 +1,49 @@
+% Authors who equally contributed to a publication are marked with a \textdagger.
+以下是大学到目前工作参加的项目。
+
+\newcounter{publicationCounter}   % We set an publication counter, we can continue counting the publications when switchen from conferences to workshop etc.
+\subsection{工作项目}
+
+\begin{enumerate}
+% \item \textbf{Promotheus Fire}\ec, Zeus\ec, Hera, Poseidon, Artemis. Why Titans are
+% better than Gods but Gods are also not that bad. In \textit{Proceedings of the \nth{1}
+% Conference on Myths in the Universe.}
+\item 统信软件
+  \begin{enumerate}
+  \item 研究ltp内核测试失败项原因。
+  \item 移植Golang编译器到国产化平台。
+  \item 移植ftrace到国产化平台。
+  \end{enumerate}
+\item 绿盟科技
+  \begin{enumerate}
+  \item 移植DPI（深度包检测）到aarch64，arm32，alpha等国产化平台，汇编，C。
+  \item SIMD优化Hyperscan性能。
+  \item netlink开发进程监控系统，C语言。
+  \item 优化Python版程序到C，性能提升显著。
+  \item core dump分析内核crash原因。
+  \item 开发内存日志统计系统，C和bash script。
+  \end{enumerate}
+  \setcounter{publicationCounter}{\value{enumi}} % Remember the counts
+\end{enumerate}
+
+
+\subsection{大学项目}
+\begin{enumerate}
+  %\setcounter{enumi}{\value{publicationCounter}} % Continue counting
+\item RongOS一个简单操作系统的实现，这是我的毕业论文，并获优秀毕业论文。
+  \begin{enumerate}
+  \item https://github.com/Puqiyuan/RongOS
+  \item https://github.com/Puqiyuan/RongOS/blob/master/doc/thesis/thesis.pdf
+  \end{enumerate}
+\item 一个能处理小数点前后999位加减乘的计算器。
+  \begin{enumerate}
+  \item https://github.com/Puqiyuan/High\_Accuracy\_Float\_Calculator/blob/master/Calculator.c
+  \end{enumerate}
+\item ACM题目训练。
+  \begin{enumerate}
+  \item https://github.com/Puqiyuan/Tsinsen\_ACM
+  \item https://github.com/Puqiyuan/URI\_ACM
+  \end{enumerate}
+  
+  %\setcounter{publicationCounter}{\value{enumi}} % Remember the counts
+\end{enumerate}
